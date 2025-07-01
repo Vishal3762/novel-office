@@ -1,0 +1,62 @@
+# 📦 Novel Office – Custom WordPress Theme
+
+This is a fully custom-built WordPress theme for **labskillpro**, a professional software and web development company. The theme was developed as part of a web developer project assignment. It includes custom design implementation, responsiveness, performance optimizations, and WordPress best practices.
+
+---
+
+## 📋 Features
+
+- ✅ Custom home-page template (`Home`)
+- ✅ Fully responsive and mobile-friendly layout
+- ✅ Bootstrap 5 integrated via CDN
+- ✅ Custom CSS & JS enqueued properly
+- ✅ Custom hero section, services, testimonials, and contact form
+- ✅ Animated counters and carousel
+- ✅ SEO-friendly meta setup
+- ✅ Reusable structure with clean and modular code
+- ✅ Performance best practices: lazy loading, minified assets
+- ✅ Ready-to-extend with Custom Post Types (like Testimonials)
+
+---
+
+## 📁 Folder Structure
+
+novel-office-theme/
+├── assets/
+│ ├── css/ all style here
+│ └── js/ all logical part here 
+├── template/ home-page.php
+├── header.php
+├── footer.php
+├── 
+├── functions.php // all css js file and menu add here 
+├── index.php
+├── page.php
+├── style.css
+├── screenshot.png  / this is the temp screenshot for side you can change 
+└── README.md
+
+
+## 🛠️ Installation Steps
+
+1. Clone or download this repo.
+2. Copy the theme folder (`novel-office-theme`) into your `/wp-content/themes/` directory.
+3. Log in to your WordPress dashboard.
+4. Go to **Appearance → Themes** and activate **labskillpro** theme.
+5. Set the homepage to use the `Home` template in **Settings → Reading**.
+
+
+
+## 🛠️ For lazy image 
+The loading="lazy" attribute is used in an <img> tag to delay loading the image until it comes into view on the screen. This improves page speed and performance, especially when you have many images.
+
+
+<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon12.png" alt="Description" loading="lazy">
+
+
+📈 Performance Benefits
+Improves Google PageSpeed score
+
+Helps with SEO and user experience
+
+Great for mobile users and slow internet connections
